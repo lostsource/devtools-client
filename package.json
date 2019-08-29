@@ -1,0 +1,27 @@
+{
+  "name": "v8-control",
+  "version": "0.1.0",
+  "description": "Provides NodeJS API for instrumentation of the V8 Debugger (experimental)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lostsource/v8-control.git"
+  },
+  "keywords": [
+    "v8",
+    "inspect",
+    "devtools"
+  ],
+  "author": "joseph@lostsource.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lostsource/v8-control/issues"
+  },
+  "homepage": "https://github.com/lostsource/v8-control#readme",
+  "dependencies": {
+    "websocket": "^1.0.29"
+  }
+}
