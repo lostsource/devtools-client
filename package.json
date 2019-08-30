@@ -23,5 +23,9 @@
   "homepage": "https://github.com/lostsource/v8-control#readme",
   "dependencies": {
     "websocket": "^1.0.29"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-google": "^0.13.0"
   }
 }
