@@ -1,14 +1,14 @@
 {
-  "name": "v8-control",
+  "name": "devtools-client",
   "version": "0.1.0",
-  "description": "Provides NodeJS API for instrumentation of the V8 Debugger (experimental)",
-  "main": "index.js",
+  "description": "Provides DevTools API for instrumentation of Node and Chromium Debugger (experimental)",
+  "main": "lib/Client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lostsource/v8-control.git"
+    "url": "git+https://github.com/lostsource/devtools-client.git"
   },
   "keywords": [
     "v8",
@@ -18,9 +18,9 @@
   "author": "joseph@lostsource.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lostsource/v8-control/issues"
+    "url": "https://github.com/lostsource/devtools-client/issues"
   },
-  "homepage": "https://github.com/lostsource/v8-control#readme",
+  "homepage": "https://github.com/lostsource/devtools-client#readme",
   "dependencies": {
     "websocket": "^1.0.29"
   },

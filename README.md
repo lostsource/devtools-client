@@ -1,5 +1,5 @@
-# V8-control
-Provides NodeJS API for instrumentation of the V8 Debugger (experimental)
+# devtools-client
+Provides DevTools API for instrumentation of Node and Chromium Debugger (experimental)
 
 Refer to https://chromedevtools.github.io/devtools-protocol/v8/ for supported domains and commands
 
@@ -7,11 +7,11 @@ Example:
 
 ```
 
-const V8Control = require('lib/V8Control').control;
-const control = new V8Control(); 
+const Client = require('lib/Client');
+const control = new Client(); 
 
 control.connect({
-  // replace with output of `node --inspect yourapp.js` 
+  // replace with output from `node --inspect yourapp.js` 
   nodeWSEndpoint: 'ws://127.0.0.1:9229/66cafdb2-9e86-45a6-8079-0b765d585e31' 
 }).then(async ({Debugger, Runtime, Profiler}) => {  
 
