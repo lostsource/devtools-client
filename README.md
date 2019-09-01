@@ -3,11 +3,15 @@ Provides DevTools API for instrumentation of Node and Chromium Debugger (experim
 
 Refer to https://chromedevtools.github.io/devtools-protocol/v8/ for supported domains and commands
 
-Example:
+
+### Installation
+
+`npm install devtools-client`
+
+### Example
 
 ```
-
-const Client = require('lib/Client');
+const Client = require('devtools-client');
 const control = new Client(); 
 
 control.connect({
