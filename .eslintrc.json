@@ -14,6 +14,6 @@
     },
     "rules": {
         "require-jsdoc":"off",
-        "brace-style": ["on", "stroustrup"]
+        "brace-style": ["off"]
     }
 }
