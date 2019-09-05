@@ -1,6 +1,6 @@
 {
   "name": "devtools-client",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Provides DevTools API for instrumentation of Node and Chromium Debugger (experimental)",
   "main": "lib/Client.js",
   "scripts": {
