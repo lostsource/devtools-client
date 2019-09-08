@@ -1,4 +1,4 @@
-# devtools-client
+# NodeJS DevTools Client
 
 This module simplifies access to the [DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/) which can be used to control NodeJS, Chrome or Chromium.
 
