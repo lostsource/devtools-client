@@ -16,7 +16,7 @@ The module can launch a user specified NodeJS script or connect to an existent D
 const DevToolsClient = require('devtools-client');
 const Controller = new DevToolsClient();
 
-Controller.launch('/path/to/some.js').then(({Debugger, Profiler, Runtime) => {
+Controller.launch('/path/to/some.js').then(({Debugger, Profiler, Runtime}) => {
   // resolves with an object containing all available DevTools domains
 });
 ```
